@@ -1,5 +1,5 @@
 {% set name = "pymorphy2" %}
-{% set version = "0.8" %}
+{% set version = "0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3092c21f5e6f78a3a2fa54011236f975cbff8df29827ed6661cf4bde9aacdb8f
+  sha256: d4dc611f1aad8cd13c10b6a47c2d301c8321640534d9b3df563e28b3b28d2581
 
 build:
   number: 0
@@ -37,7 +37,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Morphological analyzer (POS tagger + inflection engine) for Russian language.'
+  summary: Morphological analyzer (POS tagger + inflection engine) for Russian language.
   doc_url: https://pymorphy2.readthedocs.org/
 
 extra:
