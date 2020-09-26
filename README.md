@@ -5,7 +5,7 @@ Home: https://github.com/kmike/pymorphy2/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Morphological analyzer (POS tagger + inflection engine) for Russian language.
 
