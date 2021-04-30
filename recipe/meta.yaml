@@ -10,7 +10,7 @@ source:
   sha256: 86c447157dee2eb2341efbe4538e1281a754756ba1aa32da77a89614c58b560c
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
@@ -19,12 +19,12 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - dawg-python >=0.7
     - docopt >=0.6
     - pymorphy2-dicts-ru >=2.4
-    - python
+    - python >=3.6
 
 test:
   imports:
